@@ -1,3 +1,8 @@
+/*
+ * Discord Bot for Player Stats
+ * Developed by Senouy aka CptYunsXD
+ */
+
 require('dotenv').config(); // Load environment variables from .env file
 
 const Discord = require('discord.js');
