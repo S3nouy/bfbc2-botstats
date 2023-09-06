@@ -1,3 +1,5 @@
+require('dotenv').config(); // Load environment variables from .env file
+
 const Discord = require('discord.js');
 const axios = require('axios');
 const client = new Discord.Client();
@@ -57,4 +59,4 @@ function parseStatsFromJSON(data) {
     };
 }
 
-client.login('');
+client.login(process.env.BOT_TOKEN); // Use the BOT_TOKEN from the .env file
