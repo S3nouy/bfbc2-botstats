@@ -2,7 +2,7 @@
 ## Credits
 Senouy -bot developement
 
-mister249 -providing API
+NoFaTe -providing API
 
 This Discord bot retrieves and displays player statistics for Battlefield: Bad Company 2 using the Emulator Nexus API.
 
