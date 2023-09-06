@@ -16,7 +16,7 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
 
 1. Clone this repository to your local machine.
 
-   git clone https://github.com/S3nouy/bfbc2-botstas.git
+   `git clone https://github.com/S3nouy/bfbc2-botstas.git`
 
 2. Change directory to bfbc2-botstas and install the required dependencies using npm:
 
