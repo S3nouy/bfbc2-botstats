@@ -28,11 +28,11 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
 
 4. Run the bot using the following command:
 
-   `node discord-bot.j`s
+   `node discord-bot.js`
 
 Usage
 
 
-   !stats player_name
+   !stats `player_name`
 
 Replace `player_name` with the Battlefield: Bad Company 2 player name you want to retrieve statistics for.
