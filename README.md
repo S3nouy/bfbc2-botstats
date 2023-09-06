@@ -20,7 +20,7 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
 
 2. Change directory to bfbc2-botstas and install the required dependencies using npm:
 
-   npm install discord.js@12.5.3 axios dotenv
+   `npm install discord.js@12.5.3 axios dotenv`
    
 3. Edit the .env file
    
@@ -28,7 +28,7 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
 
 4. Run the bot using the following command:
 
-   node discord-bot.js
+   `node discord-bot.j`s
 
 Usage
 
