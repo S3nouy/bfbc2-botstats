@@ -31,7 +31,7 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
 
    `node discord-bot.js`
 
-Usage
+## Usage
 
 
    !stats `player_name`
