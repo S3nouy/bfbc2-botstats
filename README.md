@@ -25,7 +25,7 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
    
 3. Edit the .env file
    
-   BOT_TOKEN=your_bot_token_here
+   BOT_TOKEN=`your_bot_token_here`
 
 4. Run the bot using the following command:
 
