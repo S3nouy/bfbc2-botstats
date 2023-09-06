@@ -18,11 +18,11 @@ client.on('message', async (message) => {
         const command = args.shift().toLowerCase();
 
         if (command === 'stats') {
-            const username = args.join(' '); // Join all the arguments to capture usernames with spaces
+            const username = args[0];
 
             // Make a request to the Nexus API with the username
             try {
-                const apiUrl = `http://api.emulatornexus.com/v1/rome/persona/${encodeURIComponent(username)}/stats`;
+                const apiUrl = `http://api.emulatornexus.com/v1/rome/persona/${username}/stats`;
                 const response = await axios.get(apiUrl);
 
                 // Parse the JSON response here and extract the relevant stats
@@ -42,6 +42,9 @@ client.on('message', async (message) => {
                     .addField('Deaths', deaths, true)
                     .addField('K/D Ratio', kdRatio, true)
                     .addField('Knife Kills', stats.knifeKills)
+                    .addField('Wins', stats.wins, true)
+                    .addField('Losses', stats.losses, true)
+                    .addField('Team Kills', stats.teamkills, true) // Add Team Kills field
                     .setImage('https://i.ibb.co/6sZvccF/battlefield-bad-company-key-art-jpg-adapt-crop191x100-628p.jpg'); // Set the URL of the knife image
 
                 // Send the embed as a message
@@ -60,6 +63,9 @@ function parseStatsFromJSON(data) {
         kills: data.kills,
         deaths: data.deaths,
         knifeKills: data.c_knv__kw_g,
+        wins: data.wins,
+        losses: data.losses,
+        teamkills: data.teamkills, // Add Team Kills property
         // Add other stats properties here
     };
 }
