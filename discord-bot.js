@@ -18,11 +18,11 @@ client.on('message', async (message) => {
         const command = args.shift().toLowerCase();
 
         if (command === 'stats') {
-            const username = args[0];
+            const username = args.join(' '); // Join all the arguments to capture usernames with spaces
 
             // Make a request to the Nexus API with the username
             try {
-                const apiUrl = `http://api.emulatornexus.com/v1/rome/persona/${username}/stats`;
+                const apiUrl = `http://api.emulatornexus.com/v1/rome/persona/${encodeURIComponent(username)}/stats`;
                 const response = await axios.get(apiUrl);
 
                 // Parse the JSON response here and extract the relevant stats
