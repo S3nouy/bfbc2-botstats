@@ -18,7 +18,7 @@ client.on('message', async (message) => {
         const command = args.shift().toLowerCase();
 
         if (command === 'stats') {
-            const username = args[0];
+             const username = args.join(' ');
 
             // Make a request to the Nexus API with the username
             try {
