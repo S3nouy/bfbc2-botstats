@@ -15,19 +15,14 @@ client.on('message', async (message) => {
         const command = args.shift().toLowerCase();
         if (command === 'stats') {
             const username = args.join(' ');
-            
             try {
                 const apiUrl = `http://api.emulatornexus.com/v1/rome/persona/${username}/stats`;
                 const response = await axios.get(apiUrl);
-                
                 if (response.data.kills) {
-                    
                     const stats = response.data;
-                    
                     const kills = stats.kills;
                     const deaths = stats.deaths;
                     const kdRatio = deaths === 0 ? kills : (kills / deaths).toFixed(2);
-
                     const embed = new Discord.MessageEmbed()
                         .setTitle('Player Stats')
                         .setColor('#0099ff')
