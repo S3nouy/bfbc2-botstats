@@ -19,7 +19,7 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
 
    `git clone https://github.com/S3nouy/bfbc2-botstats.git`
 
-2. Change directory to bfbc2-botstas and install the required dependencies using npm:
+2. Change directory to bfbc2-botstats and install the required dependencies using npm:
 
    `npm install discord.js@12.5.3 axios dotenv`
    
