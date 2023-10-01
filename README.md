@@ -11,6 +11,7 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
 - Node.js
 - Discord.js@12.5.3
 - Axios
+- Dotenv
 - A Discord Bot Token
 
 ## Installation
