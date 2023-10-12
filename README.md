@@ -38,3 +38,6 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
    !stats `player_name`
 
 Replace `player_name` with the Battlefield: Bad Company 2 player name you want to retrieve statistics for.
+
+
+![1wL4fSU](https://github.com/S3nouy/bfbc2-botstats/assets/77050462/7ecc8514-541d-4940-995f-7d53d6c926b2)
