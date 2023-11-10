@@ -23,6 +23,7 @@ client.on('message', async (message) => {
                     const kills = stats.kills;
                     const deaths = stats.deaths;
                     const kdRatio = deaths === 0 ? kills : (kills / deaths).toFixed(2);
+                    const totalHoursPlayed = (stats.time / 3600).toFixed(2);
                     const embed = new Discord.MessageEmbed()
                         .setTitle('Player Stats')
                         .setColor('#0099ff')
@@ -34,6 +35,7 @@ client.on('message', async (message) => {
                         .addField('Wins', stats.wins, true)
                         .addField('Losses', stats.losses, true)
                         .addField('Team Kills', stats.teamkills, true)
+                        .addField('Total Hours Played', totalHoursPlayed)
                         .setImage('https://i.ibb.co/6sZvccF/battlefield-bad-company-key-art-jpg-adapt-crop191x100-628p.jpg');
                     message.channel.send(embed);
                 } else {
