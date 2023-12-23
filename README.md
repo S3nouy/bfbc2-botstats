@@ -46,7 +46,7 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
 
    `node index.js`
 
-7. 
+
 
 ## Usage
 
