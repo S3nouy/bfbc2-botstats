@@ -69,3 +69,13 @@ Check index.js if you want to protect your stats from being show to other users.
 It will look like this.
 
 ![asset1](https://github.com/S3nouy/bfbc2-botstats/assets/77050462/8ff73f2f-839b-4a3d-bdcf-6180d1fca6b9)
+
+
+## Support and Contact
+
+If you have any questions, suggestions, or need assistance, feel free to reach out to me on Discord.
+
+**Discord Username:** CptYounes#1234
+
+Happy coding! 🚀
+
