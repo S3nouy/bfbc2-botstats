@@ -1,4 +1,4 @@
-# Discord Bot for Battlefield: Bad Company 2 Stats Nexus Backend
+# Discord Bot for Battlefield: Bad Company 2 Stats Nexus Backend (Updated)
 ## Credits
 Senouy -bot developement
 
@@ -26,17 +26,23 @@ This Discord bot retrieves and displays player statistics for Battlefield: Bad C
    
 3. Edit the .env file
    
-   `BOT_TOKEN=your_bot_token_here`
-   `CLIENT_ID=owner_discord_id`
-   `GUILD_ID=discord_server_id`
+   BOT_TOKEN=`your_bot_token_here`
+   
+   CLIENT_ID=`owner_discord_id`
+   
+   GUILD_ID=`discord_server_id`
+   
 
-4. Edit the config.json file
+5. Edit the config.json file
 
-   "token": "your_bot_token_here",
-   "clientId": "owner_discord_id",
-   "guildId": "discord_server_id"
+   "token": "`your_bot_token_here`",
+   
+   "clientId": "`owner_discord_id`",
+   
+   "guildId": "`discord_server_id`"
+   
 
-5. Upload commands to Discord by using the following command:
+7. Upload commands to Discord by using the following command:
 
    `node register-commands.js`
 
@@ -61,4 +67,5 @@ Replace `player_name` with the Battlefield: Bad Company 2 player name you want t
 ## Additional notes
 Check index.js if you want to protect your stats from being show to other users.
 It will look like this.
+
 ![asset1](https://github.com/S3nouy/bfbc2-botstats/assets/77050462/8ff73f2f-839b-4a3d-bdcf-6180d1fca6b9)
