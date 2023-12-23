@@ -64,6 +64,11 @@ Replace `player_name` with the Battlefield: Bad Company 2 player name you want t
 
 Replace `player_name` with the Battlefield: Bad Company 2 player name you want to retrieve score for.
 
+![asset3](https://github.com/S3nouy/bfbc2-botstats/assets/77050462/66640d6f-cc61-4a39-bcc3-89d602e84ddd)
+
+![asset4](https://github.com/S3nouy/bfbc2-botstats/assets/77050462/cc6f08db-9d58-46b3-8a54-595d081221cf)
+
+
 ## Additional notes
 Check index.js if you want to protect your stats from being show to other users.
 It will look like this.
